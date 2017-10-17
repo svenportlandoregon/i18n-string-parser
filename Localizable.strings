@@ -1,0 +1,698 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+// IKEA TRÅDFRI
+// Copyright (c) 2015 IKEA
+// All Rights Reserved Worldwide
+// Proprietary and Confidential - Not for Distribution
+// Written by frog
+//
+// TRHorizontalFlowLayout.swift
+//
+// AUTHOR IDENTITY:
+//		Usman		6/20/15
+//
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │START_UP_SCREEN                                                                                   │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"hi"                                                = "HI!";
+"welcome_to_the_tradfri_lightin"                    = "Welcome to the TRÅDFRI lighting system. It’s the easiest way to create beautiful light that supports your life at home. Ready to begin setting it up?";
+"i_agree_to_the"                                    = "I agree to the";
+"and"                                               = "and";
+"terms_conditions"                                  = "Terms & Conditions";
+"privacy_policy"                                    = "Privacy policy";
+"lets_get_started"                                  = "LET'S GET STARTED";
+"please_agree_to_continue"                          = "Please agree to continue.";
+"terms_and_conditions"                              = "Terms and conditions";
+"send_in_email"                                     = "SEND IN EMAIL";
+"set_up_mail_account"                               = "Please set up a mail account in your device to proceed.";
+"unable_to_load_the_url"                            = "Unable to load the url.";
+"tradfri_terms_and_conditions"                       = "TRÅDFRI Terms and Conditions";
+"tradfri_privacy_policy"                            = "TRÅDFRI Privacy Policy";
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │GATEWAY_DISCOVERY_SCREEN                                                                          │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"connecting_to_your_gateway"                        ="Connecting to your gateway…";
+"plug_in_your_gateway"                              = "Plug in your gateway";
+"plug_your_gateway_into_a_power"                    = "Plug your gateway into a power outlet and connect it to your WiFi router with the provided ethernet cable.";
+"finding_your_gateway"                              = "Finding your gateway...";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │SCANNING_SCREEN                                                                                   │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"type_in_the_serial_number"                         = "Type in the serial number";
+"youll_find_it_on_the_back_of_y"                    = "You’ll find it on the back of your gateway.";
+"youll_find_them_both_on_the_ba"                    = "You’ll find them both on the back of your gateway.";
+"type_in_the_security_code"                         = "Type in the security code";
+"this_serial_number_is_incorrec"                    = "This serial number is incorrect";
+"the_security_key_should_be_dig"                    = "The security key should be 16 digits";
+"type_in_the_serial_number_and_"                    = "Type in the serial number and the security code";
+"next"                                              = "Next";
+"connect"                                           = "Connect";
+"enable_camera"                                     = "Enable camera";
+"enable_your_camera_to_scan_the"                    = "Enable your camera to scan the code.";
+"now_scan_the_code"                                 = "Now scan the code";
+"youll_find_the_code_on_the_bac"                    = "You’ll find the code on the back of the gateway.";
+"scan"                                              = "Scan";
+"type_in_the_code_instead"                          = "Type in the code instead";
+"type_in_the_code"                                  = "Type in the code";
+"scanning"                                          = "Scanning...";
+"hold_on_while_we_verify_the_co"                    = "Hold on while we verify the code...";
+"we_found_the_code"                                 = "We found the code.";
+"serial_number"                                     = "Serial number";
+"security_code"                                     = "Security code";
+"enter_the_gateway_ip"                              = "Enter the gateway IP";
+"if_the_gateway_is_plugged_in_c"                    = "If the gateway is plugged in correctly and still can't be found, you may need to enter the gateway IP address manually. Check the support page for more information.";
+"gateway_ip"                                        = "Gateway IP";
+"the_gateway_ip_is_incorrect"                       = "The gateway IP is incorrect.";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │FOUND_DEVICES_SCREEN                                                                              │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"congrats"                                          = "Congrats!";
+"youre_now_connected_to_the_gat"                    = "You're now connected to the gateway. Now let's connect your devices.";
+"these_are_your_tradfri_devices"                    = "These are your TRÅDFRI devices";
+"add_another_device"                                = "Add another device";
+"finding_your_devices"                              = "Finding your devices...";
+"get_started"                                       = "GET STARTED";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │PAIR_INPUT_DEVICES_SCREEN                                                                         │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"open_the_back_of_the_remote_co"                    = "Open the back of the remote control";
+"open_the_back_of_the_motion_se"                    = "Open the back of the motion sensor";
+"control_plug"                                      = "Control Plug";
+"control_plugs"                                     = "Control Plugs";
+"start_by_choosing_the_device_y"                    = "Start by choosing the device you want to add";
+"reset_the_remote_control"                          = "Reset the remote control";
+"connect_the_remote_control"                        = "Connect the Remote control";
+"remote_control"                                    = "Remote Control";
+"open_the_back_of_the_motion_se"                    = "Open the back of the motion sensor";
+"reset_the_motion_sensor"                           = "Reset the motion sensor";
+"conect_the_motion_sensor"                          = "Connect the motion sensor";
+"motion_sensor"                                     = "Motion Sensor";
+"open_the_back_of_the_wireless_"                    = "Open the back of the wireless dimmer";
+"reset_the_wireless_dimmer"                         = "Reset the wireless dimmer";
+"conect_the_wireless_dimmer"                        = "Connect the wireless dimmer";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │PAIR_OUTPUT_DEVICES_SCREEN                                                                        │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"now_add_your_lights"                               = "Now add your lights";
+"they_can_be_added_after_youve_"                    = "They can be added after you've connected a control device.";
+"bulb"                                              = "Bulb";
+"door_or_panel"                                     = "Door or panel";
+"ill_do_this_later"                                 = "I'll do this later";
+"finding_your_device"                               = "Finding your device";
+"turn_on_your_light"                                = "Turn on your light";
+"which_control_device_are_you_u"                    = "Which control device are you using?";
+"connect_the_light"                                 = "Connect the light";
+"add_lights_to_your_remote_cont"                    = "Add lights to your remote control or sensor";
+"doors_and_panels_"                                 = "Doors and panels";
+"door"                                              = "Door";
+"panel"                                             = "Panel";
+"make_sure_that_your_light_is_i"                   = "Make sure that your light is installed and the main power switch is turned on.";
+"wireless_dimmer"                                   = "Wireless Dimmer";
+"which_device_would_you_like_to"                    = "Which device would you like to add?";
+
+"tap_here"                                          = "tap here";
+"a"                                                 = "a.";
+"b"                                                 = "b.";
+"c"                                                 = "c.";
+"remember_to_use_a_control_devi"                    = "Remember to use a control device that is already connected.";
+"set_your_lights_to_turn_on_or_off_exactly_when_you_want_them"                    = "Set your lights to turn on or off exactly when you want them to.";
+"bulbs"                                             = "Bulbs";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │PAIR_UNPAIR_POPUPS                                                                                │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"accessory_found"                                   = "%@ found";
+"perfect_your_was_connected_to_"                    = "Perfect! Your %@ was connected to TRÅDFRI.";
+"perfect_now_your_is_connected_"                    = "Perfect! Now your %@ is connected to TRÅDFRI.";
+"press_any_button_on_your_remot"                    = "Press any button on your Remote control.";
+"gently_rotate_your_wireless_di"                    = "Gently rotate your Wireless dimmer.";
+"wave_your_hand_in_front_of_the"                    = "Wave your hand in front of the Motion sensor.";
+"your_was_moved_to_"                                = "Your %@ was moved to %@.";
+
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │UNREACHABLE_LOWBATTERY                                                                            │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"last_seen_ago"                                     = "Last seen %@ ago";
+"days"                                              = "%.0f days";
+"hours"                                             = "%.0f hours";
+"minutes"                                           = "%.0f minutes";
+"seconds"                                           = "%.0f seconds";
+"low_battery"                                       = "Low battery";
+"device_cannot_be_found"                            = "One device cannot be found";
+"devices_cannot_be_found"                           = "%d devices cannot be found";
+"motion_sensors_have_low_batter"                    = "motion sensors have low batteries";
+"motion_sensor_has_a_low_batter"                    = "motion sensor has a low battery";
+"remotes_have_low_batteries"                        = "remotes have low batteries";
+"remote_has_a_low_battery"                          = "remote has a low battery";
+"one_remote_has_a_low_battery"                      = "One remote has a low battery";
+"remotes_have_low_batteries"                        = "%d remotes have low batteries";
+"one_motion_sensor_has_a_low_ba"                    = "One motion sensor has a low battery";
+"devices_have_low_batteries"                        = "%d devices have low batteries";
+"unreachable"                                       = "Unreachable";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │HOME_SCREEN                                                                                       │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"my_home"                                           = "My Home";
+"off"                                               = "Off";
+"no_lights_have_been_added_to_t"                    = "No lights have been added to this group yet.";
+"add_lights"                                        = "Add lights";
+"max"                                               = "Max";
+"min"                                               = "Min";
+
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │TIMERS_SCREEN                                                                                      │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"timers"                                            = "Timers";
+"rise_and_shine"                                    = "Rise and Shine";
+"every_day"                                         = "Every day";
+"away_from_home"                                    = "Away from Home";
+"on_and_off"                                        = "ON and OFF";
+"set_your_time"                                     = "Set your time";
+"mon"                                               = "Mon";
+"tue"                                               = "Tue";
+"wed"                                               = "Wed";
+"thu"                                               = "Thu";
+"fri"                                               = "Fri";
+"sat"                                               = "Sat";
+"sun"                                               = "Sun";
+"at"                                                = "At";
+"same_as_timer"                                     = "Same as timer";
+"min_after_timer"                                   = "%d min. after timer";
+"the_start_time_of_your_timer_n"                    = "The start time of your Timer needs to be before the end.";
+"once"                                              = "Once";
+"new_timer"                                         = "New Timer";
+"your_timer_just_started"                           = "Your %@ timer just started.";
+"some_of_your_timers_were_updat"                    = "Some of your timers were updated from another device.";
+"a_timer_has_been_updated"                          = "A timer has been updated";
+"timers_have_been_updated"                          = "Your timers have been updated";
+"you_are_now_using_the_maximum_"                    = "You are now using the maximum number of timers.";
+"timers_help_you_set_your_light"                    = "Timers help you set your lighting to turn on and off. Add one to get started!";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │NEW_TIMER_SCREEN                                                                                  │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"set_your_lights_to_wake_you_up"                    = "Set your lights to wake you up.";
+"out_and_about_set_your_lights_to_turn_on_and_off_as_if_you_were_home"                    = "Out and about? Set your lights to turn on and off as if you were home.";
+
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │RISE_AND_SHINE_SCREEN                                                                             │
+  └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"set_your_lights_to_slowly_dim_"                    = "Set your lights to slowly dim up, starting 30 minutes before the time you've set your timer to. Your lights will slowly get brighter\n- just like the morning sun.";
+"what_time"                                         = "What time?";
+"repeat"                                            = "Repeat";
+"delete_timer"                                      = "Delete timer";
+"timer_is_not_set"                                  = "Timer is not set";
+"make_sure_you_set_your_timer_b"                    = "Make sure you set your timer before you leave.";
+"proceed"                                           = "Proceed";
+"the_rise_and_shine_alarm_was_c"                    = "The Rise and Shine alarm was changed on another device.";
+"the_timer_rise_and_shine_has_b"                    = "The timer Rise and Shine has been turned off.";
+"which_lights"                                      = "Which lights?";
+"monday"                                            = "M";
+"tuesday"                                           = "T";
+"wednesday"                                         = "W";
+"thursday"                                          = "T";
+"friday"                                            = "F";
+"saturday"                                          = "S";
+"sunday"                                            = "S";
+"save"                                              = "save";
+"delete_rise_and_shine"                             = "Delete Rise and Shine";
+"are_you_sure_you_want_to_delete_thi"               = "Are you sure you want to delete this timer?";
+"your_rise_and_shine_timer_was_"                    = "Your Rise and Shine timer was updated from another device.";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │AWAY_FROM_HOME_SCREEN                                                                             │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"delete_away_from_home"                             = "Delete Away from Home";
+"cant_set_time"                                     = "Can’t set time";
+"you_cant_set_a_time_with_the_"                     = "You can't set a time with the same start and end time.";
+"from"                                              = "From";
+"out_and_about_set_your_lights_to_turn_on_and_off_as_if_you_were_home_"  =  "Out and about? Set your lights to turn on and off as if you were home.\n\nRemember not to turn off your lights using the wall switch. They will remember the brightness and colour from the last time they were used.";
+"your_away_from_home_timer_was_"                    = "Your Away from Home timer was updated from another device.";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │ON_AND_OFF_SCREEN                                                                                 │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"during_what_time"                                  = "During what time?";
+"on_or_off"                                         = "ON OR OFF";
+"set_your_lights_to_turn_on_or_off_exactly_when_you_want_them_to_y"                  = "Set your lights to turn on or off exactly when you want them to. \n\nYour lights will remember the brightness and colour from the last time they were used.";
+"delete_on_or_off"                                  = "Delete ON or OFF";
+"should_they_turn_on_or_off"                        = "Should they turn on or off?";
+"your_on_or_off_timer_was_updat"                    = "Your On or Off timer was updated from another device.";
+"turn_on"                                           = "TURN ON";
+"turn_off"                                          = "TURN OFF";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │MOODS_SCREEN                                                                                      │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"oops_the_name_cannot_exceed_ch"                    = "Oops!%@The name cannot exceed %d characters.";
+"moods_by_ikea"                                     = "Moods by IKEA";
+"new_mood"                                          = "New Mood";
+"create_a_mood"                                     = "CREATE A MOOD";
+"name_this_mood_before_save_it"                     = "Name this mood before you save it.";
+"save_the_current_light_as_a_mo"                    = "Save the current light as a mood.";
+"delete_mood"                                       = "Delete Mood";
+"focus"                                             = "Focus";
+"everyday"                                          = "Everyday";
+"relax"                                             = "Relax";
+"sunset"                                            = "Sunset";
+"northern_lights"                                   = "Northern Lights";
+"ocean"                                             = "Ocean";
+"please_enter_a_mood_name"                          = "Please enter a mood name.";
+"please_pick_another_name_this_o"                   = "Please pick another name, this one is already in use.";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │SETTINGS_SCREEN                                                                                   │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"settings"                                          = "settings";
+"add_a_device_to_this_group_by_"                    = "Add a device to this group by dragging it into this box.";
+"leaving_will_remove_new_group"                     = "Leaving will remove new group";
+"groups_without_any_devices_wil"                    = "Groups without any devices will automatically be removed.";
+"continue_"                                         = "Continue";
+"manage_your_devices"                               = "Manage your devices";
+"devices"                                           = "devices";
+"remove"                                            = "Remove";
+"language"                                          = "Language";
+"need_help"                                         = "Need help?";
+"remove_device"                                     = "Remove device";
+"youre_about_to_remove_the_last"                    = "You're about to remove the last device";
+"default_language"                                   = "Default language";
+"you_will_no_longer_be_able_to_"                    = "You will no longer be able to use this with your TRÅDFRI system. \nPhysically pair it with another device to use it again.";
+"naming_issue"                                      = "Naming issue";
+"the_name_is_already_taken_plea"                    = "The name \"%@\" is already taken. Please chose another name.";
+"accessory_could_not_be_removed"                    = "Accessory could not be removed";
+"software_licenses"                                 = "Software licenses";
+"youve_selected_as_your_languag"                    = "You've selected %@ as your language.";
+"a_problem_occurred"                                = "A problem occurred";
+"it_looks_like_there_was_a_pro"                     = "It looks like there was a problem moving your light. Make sure the light is turned on and try to move it again.";
+"disconnected_devices"                              = "DISCONNECTED DEVICES";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │OTA                                                                                               │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"gateway_is_rebooting"                              = "Gateway is rebooting...";
+"tradfri"                                           = "TRÅDFRI";
+"updates_are_available"                             = "Updates are available";
+"update"                                            = "Update";
+"update_successful"                                 = "Update successful";
+"update_failed"                                     = "Update failed";
+"updating"                                          = "Updating…";
+"show_update_details"                               = "Show update details";
+"version_details"                                   = "Version details";
+"this_update_allows_you_to"                         = "This update allows you to:";
+"not_now"                                           = "NOT NOW";
+"tradfri_is_up_to_date"                             = "TRÅDFRI is up to date";
+"all_your_devices_are_updated_t"                    = "All your devices are updated to the latest version.";
+"update_details"                                    = "Update Details";
+"include_more_than_devices_devi"                    = "%d. Include more than %d devices in one group.";
+"up_to_date"                                        = "Up to date";
+"your_gateway_software_is_being"                    = "Your gateway software is being updated to give you the best possible experience. \n\nThe gateway will be unavailable for a few minutes, but you can continue using your lights and remote control as normal.";
+"gateway_is_updating"                               = "Gateway is updating...";
+"gateway"                                           = "Gateway";
+"gateways"                                          = "Gateways";
+"oops_something_went_wrong"                         = "Oops! Something went wrong.";
+"this_should_only_take_about_mi"                    = "This should only take about 1 minute.";
+"lights"                                            = "Lights";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │ADD_DEVICES_SCREEN                                                                                │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"add_to_group"                                      = "Add to group";
+"add_devices"                                       = "Add devices";
+"new_group"                                         = "New group";
+"group_name"                                        = "Group name";
+"add_new_group"                                     = "Add New Group";
+"add_new"                                           = "ADD NEW";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │ERROR_SCREEN                                                                                      │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"connect_to_new_gateway"                            = "Connect to new gateway";
+"new_gateway_found"                                 = "New gateway found";
+"you_cant_connect_to_your_curre"                    = "You can't connect to your current gateway, but another is available. Would you like to connect to the new gateway?";
+"connecting_will_disconnect_you"                    = "Connecting will disconnect you from your current gateway. But don’t worry, all of your settings will still be stored on your current gateway.";
+"confirm"                                           = "Confirm";
+"scan_again"                                        = "Scan again";
+"type_it_in_again"                                     = "TYPE IT IN AGAIN";
+"try_again"                                         = "Try again";
+"it_looks_like_you_scanned_the_"                    = "It looks like you scanned the wrong code. Try scanning the one on the back of your gateway.";
+"oops"                                              = "Oops!";
+"holding_the_remote_control_or_"                    = "Holding the remote control or motion sensor next to your light , press and hold the grey button next to the battery. Once it’s added, the light will blink once..";
+"turn_your_lights_on"                               = "Turn your lights on";
+"your_lights_needs_to_be_turned"                    = "Your lights needs to be turned on with the light switches before you continue.";
+"connect_your_remote_control_or"                    = "Connect your remote control or sensor to the gateway";
+"press_the_button_on_the_gatewa"                    = "Press the button on the gateway. Hold the remote control or sensor next to the gateway, then press and hold the button next to the battery.";
+"connect_to_wifi"                                   = "Connect to WiFi";
+"unable_to_connect_to_tradfri"                      = "Unable to connect to TRÅDFRI";
+"you_must_be_connected_to_your_"                    = "You must be connected to your WiFi network to control TRÅDFRI from your app.";
+"we_couldnt_find_your_motion_se"                    = "We couldn't find your motion sensor.";
+"we_couldnt_find_your_remote_co"                    = "We couldn't find your remote control.";
+"wrong_serial_number"                               = "Wrong serial number";
+"oops_please_check_your_code_an"                    = "Oops! Please check your code and type in again.";
+"error"                                             = "Error";
+"enter_the_gateway_ip_manually"                     = "Enter the gateway IP manually";
+"hold_your_control_device_within_cm_of_the_bulb_the"    = "Hold your control device within 5 cm. of the bulb. Then press and hold the “link” button on the back for at least 10 seconds.";
+"remember_to_turn_on_your_ligts"                    = "Remember to turn on your lights";
+"your_light_needs_to_be_turned_"                    = "Your light needs to be turned on with the light switch before you can use it.";
+
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │DISCONNECT_SCREEN                                                                                 │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"disconnect"                                        = "Disconnect";
+"disconnect_from_your_gateway"                      = "Disconnect from your gateway";
+"disconnecting_allows_you_to_co"                    = "Disconnecting allows you to connect to another gateway. You won’t be able to use both at the same time, but don’t worry, all of your scenes and light settings will still be stored on your current gateway.";
+"are_you_sure_you_want_to_disco"                    = "Are you sure you want to disconnect?";
+"cancel"                                            = "Cancel";
+"disconnecting"                                     = "Disconnecting...";
+"disconnected"                                      = "disconnected";
+"disconnect_from_gateway"                           = "Disconnect from gateway";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │PRODUCT_NAMES                                                                                     │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"white_spectrum_bulb"                        = "White spectrum bulb";
+"tradfri bulb e27 ws clear 950lm"                   = "White spectrum bulb";
+"tradfri bulb e27 ws opal 950lm"                    = "White spectrum bulb";
+"tradfri bulb e14 ws opal 400lm"                    = "White spectrum bulb";
+"colour_white_spectrum_bulb"                  = "Colour/white spectrum bulb";
+"tradfri bulb e14 c/ws opal 600lm"                  = "Colour/white spectrum bulb";
+"white_spectrum_panel"                             = "White spectrum panel";
+"floalt panel ws 30x90"                             = "White spectrum panel";
+"floalt panel ws 60x60"                             = "White spectrum panel";
+"colour_white_spectrum_panel"                           = "Colour/white spectrum panel";
+"white_spectrum_door"                            = "White spectrum door";
+"surte door ws 38x64"                               = "White spectrum door";
+"remote_control"                            = "Remote control";
+"wireless_motion_sensor"                             = "Wireless motion sensor";
+"wireless_dimmer"                           = "Wireless dimmer";
+
+//Missed
+"tradfri bulb e26 ws clear 950lm"                   = "White spectrum bulb";
+"tradfri bulb e27 ws opal 980lm"                    = "White spectrum bulb";
+"tradfri bulb e26 ws opal 980lm"                    = "White spectrum bulb";
+"warm_white_bulb"                    = "Warm white bulb";
+"tradfri bulb e12 ws opal 400lm"                    = "White spectrum bulb";
+"tradfri bulb e26 opal 1000lm"                      = "Warm white bulb";
+"tradfri bulb e27 w opal 1000lm"                    = "Warm white bulb";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │GENERIC_NAMES                                                                                     │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"done"                                              = "Done";
+"ok"                                                = "Ok";
+"close"                                             = "Close";
+"delete"                                            = "Delete";
+"are_you_sure_you_want_to_delete"                   = "Are you sure you want to delete";
+"this_name_is_already_in_use_pl"                    = "This name is already in use. Please try another.";
+"yes"                                               = "Yes";
+"no"                                                = "No";
+"groups"                                            = "groups";
+"TRADFRI gateway"                                   = "Gateway";
+"TRADFRI GROUP"                                     = "Group";
+"group"                                             = "Group";
+"view"                                              = "View";
+"great"                                             = "Great!";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+ │MISSED                                                                                            │
+ └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"dismiss"                                           = "DISMISS";
+"add"                                               = "ADD";
+"to"                                                = "to";
+"am"                                                = "AM";
+"pm"                                                = "PM";
+"your_two_timers_have_overlappi"                    = "Your two timers have overlapping time periods, and must be reset.";
+
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │Delta Strings for Third Round Localization process                                                │
+  └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+
+/*Firmware Update*/
+"update_available"                                  = "Update available";
+"theres_an_important_new_update"                    = "There’s an important new update available for TRÅDFRI";
+"update_now"                                        = "Update now";
+"details"                                           = "Details";
+"start_update"                                      = "Start update";
+"update_scheduled"                                  = "Update scheduled";
+"update_pending"                                    = "Update pending";
+"continue_to_use_your_lights_as"                    = "Continue to use your lights as usual—updates will happen in the background. The app may be unavailable for a short time.";
+"view_update_details"                               = "View update details";
+"your_devices_are_being_updated"                    = "Your devices are being updated. You can continue using TRÅDFRI as usual.";
+"ooops_something_went_wrong"                        = "Ooops. Something went wrong.";
+"one_or_more_devices_didnt_upda"                    = "One or more devices didn't update.\nDon’t worry—your light will still work";
+"required_update"                                   = "Required update";
+"an_important_update_has_been_p"                    = "An important update has been performed and Trådfri has been updated to the latest version";
+"update_required_tradfri_needs_"                    = "Update required. TRÅDFRI needs an update to keep running smoothly.The app will be unavailable as it updates. ";
+"timers_help_you_automate_your_"                    = "Timers help you automate your lighting at home. Add a Timer to get started.";
+"day"                                               = "%.0f day";
+"doors"                                             = "Doors";
+"panels"                                            = "Panels";
+"wireless_dimmers"                                  = "Wireless dimmers";
+"remote_controls"                                   = "Remote Controls";
+"motion_sensors"                                    = "Motion Sensors";
+"tradfri bulb e27 opal 1000lm"                      = "Warm white bulb";
+"update_did_not_complete"                           = "Update didn’t complete";
+"see_details"                                       = "See details";
+"waiting_for_gateway"                               = "Waiting for Gateway";
+"not_updated"                                       = "Not updated";
+"your_gateway_didnt_update_dont"                    = "Your Gateway didn’t update. Don’t worry—your light will still work";
+"find_detailed_help_in_our_trou"                    = "Find detailed help in our troubleshooting guide.";
+"check_for_updates"                                 = "Check for updates";
+"troubleshoot"                                      = "Get help";
+"oops_"                                             = "Oops";
+
+/*Error Screen*/
+"we_cant_connect_to_your_gatewa"                    = "We can’t connect to your gateway";
+"we_couldnt_connect_to_your_dev"                    = "We couldn't connect to your devices. If the problem persists, turn off your gateway and turn it back on.";
+"we_couldnt_find_your_gateway_m"                    = "We couldn't find your gateway. Please make sure it's connected to your router with the cable, and that the phone is connected to the same network.";
+"reconnect_to_gateway"                              = "Reconnect to gateway";
+
+/*Onboarding*/
+"press_the_button_beside_quickly_times_a_red_light_will_flash_on_the_front_of_the_remo"                    = "%@ Quickly press and hold the button beside %1$s 4 times. A red light will flash on your Remote Control.\n\n%@ After the light stops flashing, wait 10 seconds. Then you can continue.";
+"hold_the_remote_control_within_of_t"                                                                      = "%@ Hold the Remote Control within 2 cm of the Gateway.\n\n%@ Press and hold the button next to  %1$s on the Remote Control until the %1$d on the Gateway quickly flashes 4 times.\n\n%@ Wait for your confirmation here in this app.";
+"hold_the_motion_sensor_within_of_th"                                                                      = "%@ Hold the Motion Sensor within 2 cm of the Gateway.\n\n%@ Press and hold the button next to  %1$s on the Motion Sensor until the light above the %1$d on the Gateway quickly flashes 4 times.\n\n%@ Wait for your confirmation here in this app.";
+"hold_your_wireless_dimmer_within_of_the_"                                                                 ="%@ Hold your Wireless Dimmer within 2 cm of the white box on the back of your door or panel.\n\n%@ Press and hold the button next to %1$s for 10 seconds. Your light source will dim and brighten. Keep the button pressed until the pulsing stops.";
+"hold_your_wireless_dimmer_within_of_bulb"                                                                 =   "%@ Hold your Wireless Dimmer within 2 cm of the bulb.\n\n%@ Press and hold the button next to %1$s for 10 seconds. Your light source will dim and brighten. Keep the button pressed until the pulsing stops.";
+"hold_your_motion_sensor_within_of_the_bu"                                                                 =   "%@ Hold your Motion Sensor within 2 cm of the bulb.\n\n%@ Press and hold the %1$s button for 10 seconds. Your light source will dim and brighten. Keep the button pressed until the pulsing stops.";
+"hold_your_motion_sensor_within_of_the_wh"                                                                 =   "%@ Hold your Motion Sensor within 2 cm of the white box on the back of your door or panel.\n\n%@ Press and hold the %1$s button for 10 seconds. Your light source will dim and brighten. Keep the button pressed until the pulsing stops.";
+"rename_device"                                     = "Rename device";
+"rename"                                            = "Rename";
+"perfect_is_now_connected_to_tr"                    = "Perfect! %@ is now connected to TRÅDFRI.";
+
+/*Clear Settings Screen*/
+"clear_all_settings"                                = "Clear all settings";
+"clear_settings"                                    = "Clear settings";
+"clear"                                             = "Clear";
+"this_will_delete_all_moods"                        = "This will delete all Moods and Timers and reset all settings. When you reset, all your devices will be disconnected from the Gateway.";
+"are_you_sure_you_want_to_clear"                    = "Are you sure you want to clear all your settings?";
+"clearing"                                          = "Clearing...";
+"cleared"                                           = "Cleared";
+
+/*Move/Remove Accessory*/
+"to_move_your_device_open_the_wireless_dimmers_in_and_an"                                                  = "To move your device, open the Wireless Dimmers in %@ and %@ and press the link buttons on both.";
+"to_move_your_device_open_the_wireless_dimmers_in_and_pr"                                                  = "To move your device, open the Wireless Dimmer in %@ and press the link button.";
+"for_security_reasons_your_appl"                                                                           = "For security reasons, your application disconnects if it hasn't been used in your home for over 6 weeks. \n\nPlease reconnect to your gateway to continue where you left off.";
+"open_the_wireless_dimmer_in_and_pre"                                                                      = "Open the Wireless Dimmer in %@ and press the link button to move your light.";
+"tradfri_version"                                                                                          = "Trådfri version";
+"i_did_it"                                          = "I did it";
+"press_the_link_button"                             = "Press the link button";
+"to_control_the_new_group_just_"                    = "To control the new group, just open the Wireless Dimmer and press the link button. Then your device will be moved.";
+"remove_"                                           = "Remove %@";
+"are_you_sure_you_want_to_remov"                    = "Are you sure you want to remove %@?";
+"to_finish_the_removal_of_the_p"                    = "To finish removing your %@, reset it by pressing the link button 4 times. Then you're done!";
+"to_confirm_please_wave_your_ha"                    = "To confirm, please wave your hand in front of the Motion Sensor.";
+"turn_on_all_your_lights"                           = "Turn on all of your lights.";
+"are_all_your_lights_on_they_mu"                    = "Are all your %@ lights on?They must be ON to successfully move the Wireless Dimmer.";
+"control_your_lights_using_your"                    = "Control your lights using your Wireless Dimmer(s) by pressing the link button on all Wireless Dimmers in %@";
+"is_your_light_on"                                  = "Is your light on?";
+"if_not_turn_it_on_to_successfu"                    = "If not, turn it on to successfully remove your device.";
+"remove_light"                                      = "Remove Light";
+"remove_accessory"                                  = "Remove accessory?";
+"to_remove_your_light_open_the_"                    = "To remove your light, open the Wireless Dimmer in %@ and press the link button.";
+"are_you_sure_you_want_to_remove_you"               = "Are you sure you want to remove your %@?";
+"device"                                            = "device";
+"enter_group_name"                                  = "Please enter a name for your group";
+"enter_accessory_name"                              = "Please enter a name for your accessory";
+"please_confirm"                                    = "Move %@";
+"we_did_not_detect_any_action_o"                    = "Your device didn't respond.";
+"to_confirm_please_gently_rotate"                   = "To confirm, please gently rotate your Wireless Dimmer.";
+"turn_all_your_lights_on"                           = "Turn all your lights ON";
+
+/*Timers screen*/
+"you_have_two_timers_using_the_"                                                                           = "You have two timers using the same lights. Please reset. Or You have two timers using the same time periods. Please reset to keep your lights on the correct time.";
+"timers_using_same_lights"                                                                                 = "Timers using same lights";
+"which_day"                                         = "Which day?";
+"brightness"                                        = "brightness";
+
+/*Moods screen*/
+"my_moods"                                          = "My moods";
+"create_a_mood_and_save_it_for_"                    = "Create a Mood and save it for instant access";
+"your_moods_are_still_loading_p"                    = "Your Moods are still loading. Please try again in a few seconds.";
+"your_timers_are_still_loading_"                    = "Your Timers are still loading. Please try again in a few seconds.";
+"enter_a_name"                                      = "Enter a name";
+"edit_moods"                                        =  "Edit Moods";
+"edit_mood"                                         =  "Edit Mood";
+"if_you_create_or_edit_a_mood_while"                = "If you create or edit a Mood while a light is unreachable, the light will be ignored for the Mood. Make sure your lights are on before continuing.";
+"the_name_is_already_being_used"                    = "The name \"%@\" is already being used.";
+"enter_a_mood_name"                                 = "Enter a Mood name";
+"set_your_mood_before_saving_yo"                    = "Set your Mood before saving, Your Mood will be included.";
+"to_control_the_new_group_open_t"                   = "To control the new group, open the Wireless dimmer and press the link button to move it to the new group.";
+"light_unreachable"                                 = "Light unreachable";
+
+/*Disconnect  gateway*/
+"disconnect_from_the_gateway"                       = "Disconnect from the gateway";
+"disconnect_app"                                    = "Disconnect app";
+
+/*Colors*/
+"_dcf0f8" = "Cold sky";
+"_eaf6fb" = "Cool daylight";
+"_f5faf6" = "Cool white";
+"_f2eccf" = "Sunrise";
+"_f1e0b5" = "Warm white";
+"_efd275" = "Warm glow";
+"_ebb63e" = "Candlelight";
+"_e78834" = "Warm Amber";
+"_e57345" = "Peach";
+"_da5d41" = "Dark Peach";
+"_dc4b31" = "Saturated Red";
+"_e491af" = "Pink";
+"_e8bedd" = "Light Pink";
+"_d9337c" = "Saturated Pink";
+"_c984bb" = "Light Purple";
+"_8f2686" = "Saturated Purple";
+"_4a418a" = "Blue";
+"_6c83ba" = "Light Blue";
+"_a9d62b" = "Lime";
+"_d6e44b" = "Yellow";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │Delta Strings for round 3A Localization process                                                   │
+  └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+"hold_your_control_device_withi"                                                                           = "%@ Hold your Remote Control within 2 cm of the bulb.\n\n%@ Press and hold the button next to the %1$s for 10 seconds. Your light source will dim and brighten. Keep the button pressed until the pulsing stops.";
+"hold_your_control_device_within_of_the_white_box_on_the_back_of_your_door_or_panel_pr"                                                            ="%@ Hold your Remote Control within 2 cm of the white box on the back of your door or panel.\n\n%@ Press and hold the button next to the %1$s for 10 seconds. Your light source will dim and brighten. Keep the button pressed until the pulsing stops.";
+"press_the_button_beside_quickly_times_a_red_light_will_flash_on_the_front_of_the_moti"                    = "%@ Quickly press the button next to the %1$s 4 times. A red light will flash on your Motion Sensor.\n\n%@ After the light stops flashing, wait 10 seconds. Then you can continue.";
+"press_the_metal_button_in_the_"                                                                           = "%@ Quickly press the button next to the %1$s 4 times. A red light will flash on your Wireless Dimmer.\n\n%@ After the light stops flashing, wait 10 seconds. Then you can continue";
+"hold_the_wireless_dimmer_withi"                                                                           = "%@ Hold the Wireless Dimmer within 2 cm of the Gateway.\n\n%@ Press and hold the button next to the %1$s on the Wireless Dimmer until the light above the %1$d on the Gateway quickly flashes 4 times.\n\n%@ Wait for your confirmation here in this app.";
+"are_you_sure_you_want_to_delete_mood" = "Are you sure you want to delete \'%@\'";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │Copy Process Release_1.2                                                                          │
+  └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+
+//Added for ALexa
+"amazon_alexa"                                = "Amazon Alexa";
+"apple_homekit"                               = "Apple HomeKit";
+"connect_other_products"                      = "Connect Other Products";
+"use_your_voice_to_control_your_trad"         = "Use your voice to control your TRÅDFRI lights with the help of Amazon Alexa.";
+"alexa_turn_on_the_light_or_alexa"            = "e.g. “Alexa, turn on the light”\n“Alexa, dim the light by 50%”";
+"ensure_your_alexa_device_is_s"               = "Ensure your Alexa device is set up";
+"to_continue_your_alexa_device"               = "To continue, your Alexa device needs to be up and running. Please follow the Amazon Alexa Quick Start guide.";
+"you_will_no_longer_be_able_to_control"       = "You will no longer be able to control your TRÅDFRI devices with Amazon Alexa.";
+"integrations"                                = "Integrations";
+
+//HomeKit
+"to_get_started_open_the_apple_"              = "To get started, open the Apple Home app and connect your TRÅDFRI gateway.";
+"the_homekit_code_is_located_on"              = "The HomeKit code is located on the back of your gateway.";
+
+"to_get_started_open_the_apple_home_"         = "To get started, open the Apple Home app. Select the TRÅDFRI gateway and enter this code:";
+"eg_amazon_alexa_apple_homekit"               = "e. g. Amazon Alexa, Apple HomeKit";
+"check_your_internet_connection"              = "Check your internet connection and try again.";
+"cant_connect_to_amazon"                      = "Can't connect to Amazon";
+"problem_connecting_to_amazon"                = "Problem connecting to Amazon";
+"please_try_again"                            = "Please try again";
+"accept_the_terms_of_use"                     = "Accept the terms of use";
+"in_order_to_enable_amazon_alex"              = "In order to enable Amazon Alexa, you need to accept the terms of use.";
+"disable"                                     = "Disable";
+"enable"                                      = "Enable";
+"disable_amazon_alexa"                        = "Disable Amazon Alexa?";
+"you_will_no_longer_be_able_to_"              = "You will no longer be able to control your TRÅDFRI devices from Amazon Alexa.";
+"to_get_started_enable_the_trad"              = "To get started, enable the TRÅDFRI skill in the Alexa app. Then say:\n“Alexa, discover my devices.”";
+"you_are_logged_in"                           = "You are logged in";
+"tradfri_is_compatible_with_app"              = "TRÅDFRI is compatible with Apple HomeKit.";
+
+//AppStore app update OR GW update
+"new_update_available"                        = "New update available";
+"in_order_to_control_your_devic"              = "In order to control your devices from your phone, you need to update the TRÅDFRI app.";
+"later"                                       = "Later";
+"gateway_update_available"                    = "Gateway update available";
+"to_use_new_features_you_need_t"              = "To use new features, you need to update your gateway software to the latest version.";
+"gateway_update_required"                     = "Gateway update required";
+"to_use_this_new_feature_you_ne"              = "To use this new feature, you need to update your gateway software to the latest version.";
+"learn_more"                                  = "Learn more";
+"lights_start_to_brighten_at"                 = "Lights start to brighten at %@";
+
+//What's New features screen
+"make_all_of_your_connected_dev"              = "Make all of your connected devices work harder and smarter for you. TRÅDFRI now works with Apple HomeKit.";
+"use_your_voice_to_control_your"              = "Use your voice to control your TRÅDFRI lights with the help of Amazon Alexa. Turn them on and off or adjust the brightness.";
+"whats_new"                                   = "what's new";
+"reconnect_to_gateway"                        = "Reconnect to gateway";
+"as_a_security_precaution_you_h"              = "As a security precaution, you have been disconnected from your gateway.\n\nPlease reconnect to your gateway to continue.";
+
+//Troubleshoot
+"unknown_device"                              = "Unknown Device";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │Copy Process Release_1.2 NEW                                                                      │
+  └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+
+"multicoloured_bulbs"                         = "Multicoloured bulbs";
+"now_you_can_decorate_your_home"              = "Now you can decorate your home with coloured lights.";
+
+/*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │Copy Process Release_1.3                                                                          │
+  └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
+
+//Google Home Screen
+"set_up_tradfri_for_voice_contr"                 = "Set up TRÅDFRI for voice control via Google Home.";
+"eg_ok_google_turn_on_the_light"                 = "e.g. Ok, Google, turn on the light, or, Ok, Google, dim the light by 50%.";
+"google_assistant"                               = "Google Assistant";
+"make_sure_your_google_home_dev"                 = "Make sure your Google Home device is set up.";
+"your_google_home_device_needs_"                 = "Your Google Home device needs to be turned on to continue.";
+"almost_done_open_the_google_ho"                 = "Almost done. Open the Google Home app to enable voice steering of your TRÅDFRI devices. ";
+"disable_google_assistant"                       = "Disable Google Assistant?";
+"you_will_no_longer_be_able_to"                  = "You will no longer be able to control your TRÅDFRI devices from Google Home. ";
+"google_assistant"                               = "Google Assistant";
+"use_voice_control_to_adjust_y"                  = "Use voice control to adjust your TRÅDFRI devices with Google Assistant. Turn them on, change colours or adjust brightness.";
+"cant_connect_to_google"                         = "Can´t connect to Google";
+"google_assistant_could_not_be_enabled"          = "Google Assistant could not be enabled";
+"google_could_not_enabled"                       = "Google could not be enabled";
+"something_went_wrong_please_tr"                 = "Something went wrong. Please try again.";
+"verify_your_internet_connection"                = "Verify your internet connection and try again.";
+"you_are_logged_in"                              = "You are logged in.";
+"you_cant_have_two_timers_on_a" = "You can't have two timers on at the same time using the same lights";
+"multicoloured_bulbs" = "Multicoloured bulbs";
+"decorate_your_home_with_colour" = "Decorate your home with coloured lights. The Trådfri family just got bigger.";
+// APP-493
+"schedule_lights_to_turn_on_and"                = "Schedule lights to turn on and off, even when you're away.";
+//Settings Update
+"legal_information"                             = "Legal information";
+"manage_devices"                                = "Manage Devices";
+//APP-810
+"group_must_be_empty_to_delete"                 =  "Group must be empty to delete.";
+"please_remove_all_devices_in_t"                =  "Please remove all devices in the group.";
+"cant_connect"                                  = "can't connect";
+"amazon_alexa_could_not_be_disa"                = "Amazon Alexa could not be disabled";
+"please_verify_your_internet_connect"           = "Please verify your internet connection and try again.\n\nIf the app doesn't connect after multiple attempts, select REMOVE INTEGRATIONS to reset integrations and try again.\nThis will remove ALL integrations that you may have enabled, including Amazon Alexa.";
+"please_verify_your_internet_co"                = "Please verify your internet connection and try again.\n\nIf the app doesn't connect after multiple attempts, try removing all other integrations that may be enabled.";
+"if_the_app_cant_connect_after_"                = "If the app can't connect after multiple attempts you can instead remove all integrations.";
+"please_note_that_this_will_disa"               = "Please note that this will disable both Amazon Alexa as well as other integrations that you may have enabled. ";
+"please_not_that_this_will_disable_b"           = "Please not that this will disable both google home as well as other integrations that you may have enabled. ";
+"try_disable_again"                             = "Try disable again";
+"remove_integrations"                           = "Remove integrations";
+"remove_all_integrations"                       = "Remove all integrations?";
+"are_you_sure_this_will_remove_"                = "Are you sure? This will remove ALL integrations that you may have enabled.";
+"google_assistant_could_not_be_disabled"        = "Google Assistant could not be disabled";
