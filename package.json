@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "i18n-strings-files": "^1.0.2"
+    "i18n-strings-files": "^1.0.2",
+    "json2csv": "^3.11.4",
+    "papaparse": "^4.3.6"
   }
 }
