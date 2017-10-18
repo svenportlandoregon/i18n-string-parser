@@ -1,4 +1,4 @@
-
+const jsonexport = require('jsonexport');
 const i18nStringsFiles = require('i18n-strings-files');
 const json2csv = require('json2csv');
 const papaparse = require('papaparse');
@@ -16,6 +16,11 @@ var outputLocalizable = fs.writeFile("Localizable.json", JSON.stringify(dataLoca
     }
     console.log("The file was saved!");
 }); 
+
+jsonexport(dataLocalizable, function(err, csv) {
+    if(err) return console.log(err);
+    console.log(csv);
+});
 
 //dictionary add labels to key:value pairs in object :: map, array
 // var readyForParsing = fs.readFileSync('Localizable.json', 'UTF-8');
