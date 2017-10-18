@@ -18,8 +18,12 @@ var outputLocalizable = fs.writeFile("Localizable.json", JSON.stringify(dataLoca
 }); 
 
 jsonexport(dataLocalizable, function(err, csv) {
-    if(err) return console.log(err);
-    console.log(csv);
+    if(err) {
+    return console.log(err);
+    } else {
+        fs.writeFile('Localizable.csv', csv, 'UTF-8');
+        console.log(csv);
+    }
 });
 
 //dictionary add labels to key:value pairs in object :: map, array
