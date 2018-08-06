@@ -14,7 +14,6 @@ var string2CSV = function() {
     "UTF-8"
   );
 
-  // var outputLocalizableCSV = JSON.stringify(dataLocalizable, null, 2);
   // //Writes object to json file
   var outputLocalizable = fs.writeFile(
     "./assets/output/Localizable.json",
